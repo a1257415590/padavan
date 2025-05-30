@@ -84,7 +84,7 @@ on:
         type: choice
         options: [ '0x312', '0x362', '0x372', '0x3B2' ]
       plugins:
-        description: 'Plugin JSON, e.g. {"ss":"y","xray":"n"}'
+        description: 'Plugin JSON, e.g. {"ss":"n","xray":"n"}'
         required: true
         type: string
         default: '{"shadowsocks":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","smartdns":"n","vlmcsd":"n","ttyd":"n","iperf3":"n"}'
